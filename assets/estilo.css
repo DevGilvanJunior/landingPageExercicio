@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.containerHeader {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 2px solid #000000;
+}
+
+.logo {
+    height: 120px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+img {
+    height: 120px;
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+nav a:hover {
+    border-bottom: 3px solid #0000ff;
+}
+.areaGeral {
+    display: flex;
+    height: 450px;
+    border: 1px solid red;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.textGeral {
+    height: 400px;
+    width: 700px;
+    border:1px solid #0000ff
+}
+.imgGeral {
+    height: 400px;
+    width: 500px;
+    background-image: url('../assets/images/ramington.webp');
+    background-position: center;
+    background-size: cover;
+    border: 1px solid green;
+}
