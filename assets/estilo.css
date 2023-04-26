@@ -44,16 +44,18 @@ nav a:hover {
 .areaGeral {
     display: flex;
     height: 450px;
-    border: 1px solid red;
     margin-left: 30px;
     margin-right: 30px;
     justify-content: space-around;
     align-items: center;
 }
 .textGeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     height: 400px;
     width: 700px;
-    border:1px solid #0000ff
 }
 .imgGeral {
     height: 400px;
@@ -61,5 +63,71 @@ nav a:hover {
     background-image: url('../assets/images/ramington.webp');
     background-position: center;
     background-size: cover;
-    border: 1px solid green;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 40px;
+}
+p {
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+    text-align: justify;
+    padding: 15px;
+}
+.buttonText {
+    display: flex;
+    justify-content: center;
+}
+h1, h2, p, .buttonText {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input {
+    height: auto;
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:orangered;
+    color:#ffffff;
+    cursor: pointer;
+}
+input:hover {
+    background-color: rgb(224, 88, 39);
+    padding: 15px;
+    transition: .2s;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #000000;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+footer a {
+    text-decoration: none;
+    color:#000000;
+}
+.infDesenvolvedor {
+    font-size: 18px;
+    margin-right: 20px;
+}
+.dev {
+    display: flex;
+    align-items: center;
+}
+.icons {
+    max-width: 50px;
+    max-height: 50px;
+}
+.iconCopy {
+    max-width: 15px;
+    max-height: 15px;
 }
